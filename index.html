@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Number guessing game</title>
+
+ 
+  </head>
+  <body >
+    <h1>This is a rock paper scissocrs match</h1>
+    <div>you have three chocices, rock, paper, scisscors, just one and you might win</div>
+    <button onclick="RPS()" class="button">Press this and find out</button>
+</body>
+
+<script>
+  let list=["rock","paper","scisscors"]
+  var human =""
+  var i=1
+  let win=0
+  let lose=0
+
+function RPS(){
+  for (;i<=5;i++){
+  var human =(prompt("rock paper scisscors? or stop"))
+  var com= list[Math.floor((Math.random()*3))]
+    
+  if (human==com){
+
+    console.log("Draw")
+
+  }
+  else if(human=="paper"&& com=="rock"){
+    win+=1
+    console.log("human won")
+
+  }
+  else if(human=="rock"&&com=="scisscors"){
+    win+=1
+    console.log("human won")
+
+  }
+  else if(human=="scisscors"&& com=="paper"){
+    win+1
+    console.log("human won")
+
+  }
+  else if(human="stop"){break}
+  else{ lose+=1
+  console.log("computer won")
+}
+console.log(com)
+console.log(human)
+}
+
+}
+
+</script>
+</html>

@@ -1,0 +1,13 @@
+body{display:flex;
+    flex-wrap:wrap;
+    color:darkblue;
+    font-size:40px;
+    font-weight:800;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    gap:20px;
+}
+.button{background-color:darkblue;
+color:white;
+width:75px;}

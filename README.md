@@ -1,1 +1,1 @@
-# RPS
+This is a rock paper scisscors game. For now it is very basic but soon to be better. Soon to come. 
