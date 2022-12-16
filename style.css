@@ -8,7 +8,21 @@ body{display:flex;
     text-align:center;
     gap:20px;
     flex-direction:column;
+    margin:0px;
+    padding:0px;
+    background-color:grey;
 }
+img{width: 150px;
+height:100px;}
+
 .button{background-color:darkblue;
 color:white;
 width:75px;}
+img{padding:0px;}
+
+.options{display:flex;
+gap:10px;}
+
+.option{padding:0px;
+margin:0px;
+border:0px;}
