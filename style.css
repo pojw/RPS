@@ -1,5 +1,6 @@
 body{display:flex;
-    flex-wrap:wrap;
+    
+    flex-direction: column;
     color:darkblue;
     font-size:40px;
     font-weight:800;
@@ -20,9 +21,15 @@ color:white;
 width:75px;}
 img{padding:0px;}
 
-.options{display:flex;
+#options{display:flex;
 gap:10px;}
 
 .option{padding:0px;
 margin:0px;
 border:0px;}
+
+#response{display:flex; gap:15px;
+align-content:center;
+justify-content:center;
+flex-direction:column}
+

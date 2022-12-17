@@ -11,28 +11,31 @@
   </head>
   <body >
     <h1>Can you beat the machine!!!</h1>
-    <div class=" options">
-      <div >
+    <div id="game">
+      <button  onClick="startGame()">New game</button>
+      <div id="options">
         <div >
-          <img src="photos/human.jpeg" >
-           <button onClick="Hey('rock')" class="option"><img src="photos/rock_pic.webp" > </button >
-           <button onClick="Hey('paper')" class="option"><img src="photos/paper.jpeg" > </button >
-           <button onClick="Hey('scisscors')" class="option"><img src="photos/scissors.jpeg" > </button >
-        </div>
-        <div> Computer choice </div>
-        <div> 
-          <img src="photos/computer.png">
-          <button  class="option"><img src="photos/rock_pic.webp" > </button >
-          <button  class="option"><img src="photos/paper.jpeg"> </button >
-          <button  class="option"><img src="photos/scissors.jpeg" > </button >
+          <div >
+            <img src="photos/human.jpeg" >
+            <button onClick="Hey('rock')" class="option"><img src="photos/rock_pic.webp" > </button >
+            <button onClick="Hey('paper')" class="option"><img src="photos/paper.jpeg" > </button >
+            <button onClick="Hey('scisscors')" class="option"><img src="photos/scissors.jpeg" > </button >
           </div>
-          <div>Computer vs computer?</div>
-        </div>
+          <div> Computer choice </div>
+          
 
+      </div>
+      </div>
+      <div id="response">
+        <div id="answer"></div>
+        <div id="result"></div>
+        <div id="wins"> Wins </div>
+        <div id="lost"> loses </div>
+          
+        </div>
+  
+      <button  class="button">Restart</button>
     </div>
-    <div id="response">
-    </div>
-    <button onclick="RPS()" class="button">Restart</button>
-</body>
+  </body>
 
 </html>
